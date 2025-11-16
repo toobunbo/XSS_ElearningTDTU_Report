@@ -1,5 +1,5 @@
 # Lỗ hổng Stored XSS tại trang elearning.tdtu.edu.vn
-Ứng dụng web tại `Elearning.tdtu.edu.vn` bị ảnh hưởng bởi lỗ hổng Stored Cross-Site Scripting (XSS). Lỗ hổng này xảy ra do các trường `description` trong `user/profile.php` và `user/plan`   không thực hiện mã hóa (encode) hoặc lọc (filter) đúng cách dữ liệu do người dùng cung cấp trước khi lưu vào cơ sở dữ liệu và hiển thị lại cho người dùng khác.
+Ứng dụng web tại `Elearning.tdtu.edu.vn` bị ảnh hưởng bởi lỗ hổng Stored Cross-Site Scripting (XSS). Lỗ hổng này xảy ra do trường `description` trong `user/profile.php` không thực hiện mã hóa (encode) hoặc lọc (filter) đúng cách dữ liệu do người dùng cung cấp trước khi lưu vào cơ sở dữ liệu và hiển thị lại cho người dùng khác.
 
 Kẻ tấn công có thể chèn một đoạn mã JavaScript độc hại vào trường này. Khi một nạn nhân (bao gồm cả quản trị viên) xem trang hồ sơ công khai của kẻ tấn công, đoạn mã độc sẽ tự động được thực thi trong bối cảnh (context) trình duyệt của nạn nhân, dẫn đến việc kẻ tấn công có thể chiếm quyền điều khiển tài khoản của họ.
 
