@@ -8,7 +8,7 @@ Kẻ tấn công có thể chèn một đoạn mã JavaScript độc hại vào 
 - **Loại lỗ hổng** : Cross-site-scripting (XSS) - Stored
 - **Vị trí ảnh hưởng** : ` https://elearning.tdtu.edu.vn/user/edit.php`
 - **Tham số ảnh hưởng** : `description` - trường mô tả bản thân
-
+  
 ## Kịch bản khai thác (POV)
 ### Kịch bản 1: Session Hijacking thông qua endpoint `user/edit.php`.
 Kịch bản này giả định người tấn công có tài khoản sinh và modify `description` tạo một payload độc hại cho phép đánh cắp `session` khi victim click vào link profile.
