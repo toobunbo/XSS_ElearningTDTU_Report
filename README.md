@@ -33,20 +33,18 @@ Kịch bản này giả định người tấn công có tài khoản sinh và m
 ## Screen Shot:
 ### Đăng nhập và truy cập vào endpoit `/user/edit.php`
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/5116e40e-e1ea-4115-9f83-7ccf3aea6fea" />
+
 ### Tiêm mã độc vào trường `description` và Update profile
 <img width="2880" height="1680" alt="image" src="https://github.com/user-attachments/assets/13c905ae-ce59-4598-8ee8-412c87134a4d" />
--
 <img width="2880" height="1072" alt="image" src="https://github.com/user-attachments/assets/146af2dd-2a00-49b4-a4df-9af9468b437e" />
-
-
 
 ### Victim click vào xem profile của Attacker và bị đánh cắp session
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/b38d2da7-7f85-475f-8aca-f5db68f1e300" />
 
 
 ### Truy cập với session của nạn nhân
-- Thay đổi trường MoodleSession thành của nạn nhân và reset trang web
+- Thay đổi trường MoodleSession thành của nạn nhân và reset trang web:
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/fe037d89-a1d7-49ec-89b2-f4cf2909e204" />
-
+- Lấy được tài khoản của nạn nhân:
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/2291d6c1-3cdb-42a1-b578-1b3a863fd6a6" />
 
